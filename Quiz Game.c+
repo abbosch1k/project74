@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+    int answer;
+    int score = 0;
+
+    cout << "Capital of France?\n";
+    cout << "1. London\n2. Paris\n3. Rome\n";
+    cin >> answer;
+
+    if(answer == 2)
+        score++;
+
+    cout << "2 + 2 = ?\n";
+    cin >> answer;
+
+    if(answer == 4)
+        score++;
+
+    cout << "Score: " << score;
+}
